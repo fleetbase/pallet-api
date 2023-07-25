@@ -6,45 +6,17 @@ use Fleetbase\FleetOps\Models\Vendor;
 
 class Supplier extends Vendor
 {
-     /**
-     * The singularName overwrite.
+    /**
+     * Overwrite both vendor resource name with `payloadKey`
      *
      * @var string
      */
-    protected $singularName = 'supplier';
+    protected $payloadKey = 'supplier';
 
     /**
-     * These attributes that can be queried
+     * The type of public Id to generate
      *
-     * @var array
+     * @var string
      */
-    protected $searchableColumns = [];
-
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
-    protected $fillable = [];
-
-    /**
-     * The attributes that should be cast to native types.
-     *
-     * @var array
-     */
-    protected $casts = [];
-
-    /**
-     * Dynamic attributes that are appended to object
-     *
-     * @var array
-     */
-    protected $appends = [];
-
-    /**
-     * The attributes excluded from the model's JSON form.
-     *
-     * @var array
-     */
-    protected $hidden = [];
+    protected $publicIdType = 'supplier';
 }

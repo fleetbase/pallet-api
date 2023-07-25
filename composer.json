@@ -1,16 +1,16 @@
 {
-    "name": "fleetbase/billing-api",
-    "version": "0.0.2",
-    "description": "Enables billing of organizations on Fleetbase instance to generate revenue.",
+    "name": "fleetbase/pallet-api",
+    "version": "0.0.1",
+    "description": "Enables Pallet API, the inventory management extension for Fleetbase.",
     "keywords": [
         "fleetbase",
         "fleetbase-extension",
-        "billing",
-        "revenue generator",
-        "revenue engine",
-        "stripe",
-        "stripe api",
-        "billing system"
+        "inventory",
+        "inventory management",
+        "stock management",
+        "ecommerce",
+        "inventory management api",
+        "inventory system"
     ],
     "license": "MIT",
     "authors": [
@@ -39,13 +39,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Fleetbase\\Billing\\": "src/",
-            "Fleetbase\\Billing\\Seeds\\": "seeds/"
+            "Fleetbase\\Pallet\\": "src/",
+            "Fleetbase\\Pallet\\Seeds\\": "seeds/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fleetbase\\Billing\\Tests\\": "tests/"
+            "Fleetbase\\Pallet\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",
@@ -53,7 +53,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Fleetbase\\Billing\\Providers\\BillingServiceProvider"
+                "Fleetbase\\Pallet\\Providers\\PalletServiceProvider"
             ]
         },
         "fleetbase": {
