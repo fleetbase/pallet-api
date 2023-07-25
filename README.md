@@ -12,7 +12,7 @@ This package provides the Pallet inventory management extension API, which will 
 
 > **Requires [PHP 7.3.0+](https://php.net/releases/)**
 
-⚡️ Install Billing Extension [Composer](https://getcomposer.org):
+⚡️ Install Pallet API [Composer](https://getcomposer.org):
 
 ```bash
 composer require fleetbase/pallet-api
