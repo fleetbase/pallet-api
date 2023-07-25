@@ -1,6 +1,6 @@
 <p align="center">
     <p align="center">
-        <img src="https://github.com/fleetbase/pallet-api/assets/816371/b8f49fe3-4464-4c9a-b296-7f62c2f45d48" width="280" height="280" />
+        <img src="https://github.com/fleetbase/pallet-api/assets/816371/b8f49fe3-4464-4c9a-b296-7f62c2f45d48" width="180" height="180" />
     </p>
     <p align="center">
         Pallet, an inventory manegement extension for Fleetbase
